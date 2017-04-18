@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_cadastro_usuario"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="ifpb.edu.br.spreejpa.activity.CadastroUsuarioActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="Cadastro de usuario"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/nomeUser"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="@color/gray"
+        android:hint="Digite seu nome"
+        android:textColorHint="@color/orange"
+        android:textColor="@color/orange"
+        android:textAlignment="center"
+        android:layout_marginBottom="10dp"
+        android:drawableLeft="@drawable/iconuser"
+        android:paddingLeft="20dp">
+    </EditText>
+
+
+    <EditText
+        android:id="@+id/emailUser"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="@color/gray"
+        android:hint="seuemail@email.com"
+        android:textColorHint="@color/orange"
+        android:textColor="@color/orange"
+        android:textAlignment="center"
+        android:layout_marginBottom="10dp"
+        android:drawableLeft="@drawable/envelope"
+        android:paddingLeft="20dp">
+    </EditText>
+
+    <EditText
+        android:id="@+id/senhaUser"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="@color/gray"
+            android:hint="Digite sua senha"
+        android:textColorHint="@color/orange"
+        android:textColor="@color/orange"
+        android:textAlignment="center"
+        android:layout_marginBottom="10dp"
+        android:drawableLeft="@drawable/iconpassword"
+        android:paddingLeft="20dp">
+    </EditText>
+
+    <Button
+        android:id="@+id/registerUser"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/red"
+        android:textColor="@color/white"
+        android:text="Cadastrar">
+
+    </Button>
+
+</LinearLayout>
