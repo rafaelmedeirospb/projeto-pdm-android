@@ -1,2 +1,3 @@
-# projeto-pdm-android
-projeto-pdm-android  Projeto da disciplina Programação para dispositivos móveis  Onde consiste em um app para verificar festas na cidade de João Pessoa, o usuário fará o cadastro, verá a categoria de festas e a listagem de eventos para determinada festa, onde nela poderá ver a localização de tal festa.
+# Spree JPA
+
+You can use the application to register parties in the city of João Pessoa, or the user to register, see a list of parties and a list of events for the party, where you can find a location of such a party. This app is just a cover and was made to test knowledge on the native android platform
